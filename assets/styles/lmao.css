@@ -1,0 +1,94 @@
+@font-face{font-family: "segeo tv regular";font-family: url("../fonts/d06ce606-83ae-4a0d-b2d3-b436b11b26a6.woff");}
+*{-webkit-transition: 500ms;-moz-transition: 500ms;-o-transition: 500ms;-ms-transition: 500ms;-khtml-transition: 500ms;transition: 500ms;}
+body{background-color: rgb(240, 240, 240);margin: 0;padding: 0;height: 100%;position: absolute;width: 100%;// border-top: 3px solid #3D3E3F;font-family: "Segoe UI", "segoe tv regular";}
+
+#wrapper{min-height: 50%;}
+#header{padding: .5em 0;font-family: "Segoe UI", "Calibri";cursor: default;border-top: 3px solid #236A99;}
+#header #name{font-size: 110px;font-family: "Segoe UI Light";margin: 0 auto;font-weight: 100;letter-spacing: -6px;display: block;color: #064480;text-shadow: 0px 0px 2px #A8A7A7;}
+#header #description{position: relative;top: -20px;display: block;left: -145px;font-size: 16px;}
+#navigation a{text-decoration: none;padding: 3px;color: #919090;font-family: "Segoe UI";font-size: 22px;border-bottom: 3px solid transparent;margin: 0 13px;z-index: 90;background-color: rgb(240, 240, 240);}
+#navigation a.active{color: black;}
+#navigation a:hover{border-color: rgb(60, 60, 60);color: rgb(30, 30, 30);}
+#navPointer{z-index: 100;position: absolute;top: 0;left: 0;border-top: 3px solid black;text-align: center;width: 70px;opacity: 0;}
+#navPointer #backPointer{border-style: solid;border-color: black transparent transparent transparent;width: 0px;display: inline-block;border-width: 0px;vertical-align: top;}
+.middler{width: 900px;margin: 0 auto;}
+.smallMiddler{width: 800px;margin: 0 auto;}
+.c{text-align: center;}
+.r{text-align: right;}
+.l{text-align: left;}
+.j{text-align: justify;}
+.fixIt{position: fixed;}
+.contentBox{-webkit-transition: 1s;-moz-transition: 1s;-o-transition: 1s;-ms-transition: 1s;-khtml-transition: 1s;transition: 1s;padding: 2em 0;position: absolute;margin-left: 50px;}
+.contentBox p{margin: 0;font-family: "Segoe UI", "Calibri", "Trebuchet MS", "Arial";color: grey;}
+.contentBox .bigText{font-size: 35px;font-family: "Segoe UI Light", "Calibri", "Arial";font-weight: 100;color: #444;line-height: 129%;}
+.contentBox .smallText{font-size: 21px;line-height: 196%;max-width: 750px;display: inline-block;}
+.contentBox .smallerText{font-size: 17px;line-height: 150%;margin: .5em 0;}
+.o0{opacity: 0;}
+.o1{opacity: 1;}
+.db{display: block;}
+.dn{display: none;}
+.front{z-index: 100;}
+.back{z-index: 90;}
+.uList{list-style: lower-greek;text-align: left;}
+a{color: inherit;text-decoration: none;border-bottom: thin solid rgb(150, 150, 150);}
+a:hover{color: black;border-color: transparent;}
+.fl{float: left;}
+.fr{float: right;}
+.profiler{width: 30%;margin: .6em 2em 2em 0;border: 10px solid #DFDFDF;border-radius: 5px;box-shadow: 1px 12px 7px -9px #777272;}
+.tileBundle{padding: 1em;}
+.tile{float: left;width: 250px;height: 250px;display: inline-block;background-repeat: no-repeat;background-color: #E9E9E9;box-shadow: 0px 12px 9px -7px #777272;//background-position: 2px center;text-align: left;overflow: hidden;margin: 0 64px;border: solid #E2E2E2;border-width: 0px thin 0px 0px;}
+.tile span{display: block;}
+.tile .more{padding: 5px 13px;background-color: rgba(0, 0, 0, .8);color: white;position: relative;top: 83%;height: inherit;box-shadow: 0px 0px 5px #000;}
+.tile:hover .more{top: 0;}
+.tile .more .moreHead{font-weight: bold;font-size: 23px;margin-bottom: 5px;font-family: "Segoe UI Light";}
+.tile .more .moreBody .gulliver{font-size: 18px;margin-bottom: 15px;}
+.tile .more .moreBody{line-height: 20px;}
+#projects_orfikTile{background-image: url("http://i.imm.io/NyeG.png");}
+#projects_cyqTile{background-image: url("http://i.imm.io/NADV.png");}
+#projects_conclaTile{background-image: url("http://i.imm.io/NBeD.png");}
+.readmore{border: none;padding: 0;content: 'Read more';border: none;padding: 5px 10px;background: #007ED1;color: white;cursor: pointer;font-size: 14px;}
+.readmore:hover{color: white;}
+.readmore:active{box-shadow: inset -5px 11px 7px -10px black;}
+.readmore:hover:after{width: 20px;}
+.readmore:after{content: '\203A\00a0';overflow: hidden;display: inline-block;vertical-align: 1px;width: 0px;}
+
+.pathLinks{text-align: left;padding-left: 4pc;}
+.pathLinks span{}
+.pathLinks span:after{content: '/';padding: 0 15px;font-size: 14px;vertical-align: 1px;}
+.pathLinks .bLink{font-size: 16px;}
+.pathLinks .fLink{font-size: 18px;vertical-align: -1px;}
+.pathLinks .fLink:after{content: '';}
+.midwid{height: 2em;clear: both;}
+.cb{clear: both;}
+#footer{width: 200px;position: fixed;bottom: 0;right: 0;text-align: right;padding-left: 2px;}
+
+.projectContent { text-align: center; }
+
+.nfjbgsajgvb { width: 500px; margin: 0 auto; padding-top: 2em; text-align: center; }
+.nfjbgsajgvb .asdf { cursor: pointer; display: inline-block; width: 240px; font-size: 28px; color: #B4B4B4; font-family: "Segoe UI Light"; }
+.nfjbgsajgvb #d_about {  }
+.nfjbgsajgvb #d_projects {  }
+
+#contactCard { font-size: 40px; font-weight: bold; color: transparent; }
+#contactCard .fbblue { color: #476FAA; }
+#contactCard .mailgrey { color: #1FAFC4; }
+#contactCard .twblue { color: #41C0E1; }
+#contactCard .gpred { color: #E35F44; }
+#contactIconSet { margin-top: 2em; }
+#contactIconSet .icon { text-align: center; border: none; color: white; font-weight: bold; font-size: 22px;width: 200px; padding: 137px 0 1em 0; display: inline-block; background-repeat: no-repeat; text-shadow: 1px 1px 5px grey; opacity: 0.6; border-radius: 100%;}
+#contactIconSet .icon:hover { opacity: 1; box-shadow: 0 0 10px dimgrey; }
+#contactIconSet .icon#contact_tw { background-color: #0CF; background-image: url("../images/catchme/tw-logo.png");  background-size: 150px; background-position: center 0.5em; }
+#contactIconSet .icon#contact_fb { background-color: #476FAA; background-image: url("../images/catchme/fb-logo.png");  background-size: 100px; background-position: center 1.6em; }
+#contactIconSet .icon#contact_mail { background-color: #1FAFC4; background-image: url("../images/catchme/mail-logo.png");  background-size: 150px; background-position: center center; }
+#contactIconSet .icon#contact_gp { background-color: #E35F44; background-image: url("../images/catchme/gp-icon.png"); background-size: 126px; background-position: center 1.2em; }
+
+/* slider ftw */
+.slider { height: 391px; width: 90%; box-shadow: 0 0 10px black; margin: 1em auto; padding: 0; overflow: hidden; }
+.slider img { width: inherit; height: inherit; }
+
+#ageDude { cursor: pointer;  }
+#ageDude:hover::before { content: "15 yrs old"; font-size: 24px; margin-top: 4px; position: absolute; color: black; }
+#ageDude:hover { color: transparent; }
+
+#myAge { margin-top: 2em; font-size: 18px; color: dimgrey; padding: 7px;}
+#myAge:target { background-color: lightgrey; color: dimgrey; }
