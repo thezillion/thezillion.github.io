@@ -28,7 +28,7 @@ function switchContact (key) {
 		$('f154f125').className = 'fbblue';
 	}
 	else if (key === 'mail') {
-		$('contactCard').innerHTML = "<span id='f154f125'>thezillion@mail.com</span>";
+		$('contactCard').innerHTML = "<span id='f154f125'>i.princemathew@gmail.com</span>";
 		$('f154f125').className = 'mailgrey';
 	}
 	else if (key === 'tw') {
